@@ -9,7 +9,7 @@ I use Flickr30k dataset from [Kaggle](https://www.kaggle.com/datasets/adityajn10
 
 ### Model
 
-I use a pre-trained ResNet-50 as the image encoder, LSTM and stacked GPT blocks as text decoders.
+I used a pre-trained ResNet-50 as the image encoder, LSTM and stacked GPT blocks as text decoders.
 This work mainly falls in the text part. 
 
 I remove the last layer of ResNet-50, then add a linear layer to map the embedding to the same size as the word embedding. 
